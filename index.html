@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="lib/FileSaver.js"></script>
+		<script src="scripts/extension.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Image extension changer</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="left">
+				<div id="input">
+					<input
+						type="file"
+						id="file"
+						accept=".png, .jpg, .jpeg, .bmp, .gif, .webp"
+					/>
+					<select id="extension-select">
+						<option value=".jpg">.jpg</option>
+						<option value=".png">.png</option>
+						<option value=".webp">.webp</option>
+					</select>
+				</div>
+				<button id="export">Export</button>
+			</div>
+			<div id="right"></div>
+		</div>
+	</body>
+</html>
