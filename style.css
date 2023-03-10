@@ -31,7 +31,7 @@ body {
 	background: linear-gradient(
 		135deg,
 		rgba(255, 255, 255, 0.1),
-		rgba(255m 255m 255, 0)
+		rgba(255, 255, 255, 0)
 	);
 	backdrop-filter: blur(100px);
 	border-radius: 20px;
